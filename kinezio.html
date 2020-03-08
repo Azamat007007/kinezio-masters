@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="header" id="home">
+		<div class="header-img">
+			<a href=""><img src="img/Untitled.png" alt="" class="image"></a>
+		</div>
+		<div class="header-item">
+			<a href="#home" class="items">Главная</a>
+			<a href="#block" class="items">Услуги</a>
+			<a href="#people" class="items">О враче</a>
+			<a href="#buy" class="items">Стоимость</a>
+		</div>
+		<div class="header-btn">
+			<a href="#block"><button class="btn"><span>Записаться на приём</span></button></a>
+		</div>
+	</div>
+	<div class="content">
+		<div class="con-text">
+			<h1 class="txt">Хочешь быть здоровым? <br> Тогда запишись на приём!</h1>
+		</div>
+		<div class="con-btn">
+			<a href="#buy"><button class="but">Записаться</button></a>
+		</div>
+		<div class="about">
+			<h3 class="about-txt">О кинезиологии</h3>
+			<p class="txt-txt">Кинезиология представляет собой хиропрактический метод диагностики и терапии, декларирующий связи мышечного напряжения (тонуса) с состоянием внутренних органов. Кинезиология представляет собой хиропрактический метод диагностики и терапии, декларирующий связи мышечного напряжения (тонуса) с состоянием внутренних органов</p>
+		</div>
+	</div>
+	<div class="block" id="block">
+		<div class="block-1">
+			<div class="block-txt">	
+				<h3 class="txt_3">Психокорекция</h3>
+				<div class="text_3"><p>lorem ipsum dollar em. Out this is js, css, html. Lorem 
+               ipsum dollar</p></div>
+               <a href="#buy"><button class="block_btn">записаться</button></a>
+			</div>
+		</div>
+		<div class="block-1">
+			<div class="block-txt-1">	
+				<h3 class="txt_4">Проверка мышц и цепей</h3>
+				<div class="text_4"><p>lorem ipsum dollar em. Out this is js, css, html. Lorem 
+               ipsum dollar</p></div>
+               <a href="#buy"><button class="block_btn_1">записаться</button></a>
+			</div>
+		</div>
+	</div>
+	<div class="people" id="people">
+		<div class="people_txt">
+			<h2 class="h2">О враче</h2>
+		</div>
+		<div class="img"></div>
+		<div class="people-h1">
+			<h3 class="hh">Кагермазов Али</h3>
+		</div>
+		<div class="people-txt">
+			<p class="txt_txt">Lorem ipsum dolor sit amet, consectetur adipisicing.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, consectetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, facere.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ab, dolor quos aperiam atque! Ad possimus consequuntur, dolor inventore! Blanditiis!</p>
+		</div>
+	</div>
+	<hr class="hr">
+	<div class="buy" id="buy">
+		<div class="but-txt">
+			<h2 class="h7">Стоимость</h2>
+		</div>
+		<div class="block-2">
+			<div class="block_2_txt">
+				<h3 class="txt-text">Психокорекция</h3>
+			</div>
+			<div class="block__btn">
+				<button id="button-1" class="btn_btn">3000 руб.</button>
+			</div>
+		</div>
+		<div class="block-2">
+			<div class="block_2_txt_1">
+				<h3 class="txt-text">Проверка мышц и цепей</h3>
+			</div>
+			<div class="block__btn">
+				<button id="button-2" data-toggle="modal" data-target="#myModal" class="btn_btn_2">2000 руб.</button>
+			</div>
+		</div>
+	</div>
+	<hr class="hr">
+	<footer class="footer">
+		<p class="foot">kinezio-block.com</p>
+		<p class="foot_2">+7(928)235-51-05</p>
+	</footer>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script>
+		var button = document.getElementById("button-1");
+		button.addEventListener('click', function() {
+			swal("Позвоните на номер", "+7(928)235-51-05");
+		});
+		var button = document.getElementById("button-2");
+		button.addEventListener('click', function() {
+			swal("Позвоните на номер", "+7(928)235-51-05");
+		});
+	</script>
+</body>
+</html>
